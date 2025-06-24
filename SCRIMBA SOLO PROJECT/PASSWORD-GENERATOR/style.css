@@ -6,22 +6,24 @@ body{
 
 
 .container{
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
   justify-self: center;
   margin-top: 100px;
-  margin-left: 250px ;
+}
+.control{
+  display: inline-block;
   padding: 20px;
   width: 550px;
   height: 350px;
-  /* background-image: url(boliviainteligente-uSooyF1X0s8-unsplash.jpg); */
-  background-size: cover;
-  /* background-position-y:bottom; */
   border: 0;
   border-radius: 20px;
   background-color: rgba(245, 156, 23, 0.352);
 }
 
 .b-content{
+  
   text-align:justify;
   color: whitesmoke;
   text-shadow: 2px 2px 4px black;
