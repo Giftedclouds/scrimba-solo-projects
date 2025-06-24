@@ -1,43 +1,60 @@
 body{
   margin: 0;
+  background-image: url(mw-D68JYzulix4-unsplash.jpg);
+  background-size: cover;
 }
+
 
 .container{
   display: inline-block;
   justify-self: center;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-left: 250px ;
   padding: 20px;
   width: 550px;
-  height: 450px;
-  background-image: url(jony-y-uc4pFSDHmfo-unsplash.jpg);
+  height: 350px;
+  /* background-image: url(boliviainteligente-uSooyF1X0s8-unsplash.jpg); */
   background-size: cover;
   /* background-position-y:bottom; */
-  border: 1px solid black;
+  border: 0;
+  border-radius: 20px;
+  background-color: rgba(245, 156, 23, 0.352);
 }
 
 .b-content{
-  text-align:center;
-  color: #FCEF91;
+  text-align:justify;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+ 
 }
 
 .output {
   display: flex;
-  
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
 }
 
-#pword, #op1{
-border: 1px solid  black;
+#pword, #pword1{
+border: 0;
 border-radius: 15px;
+padding-top:15px;
   width: 211px;
   height: 39px;
   margin: 20px;
-
+  color: whitesmoke;
+  background-color: rgba(11, 39, 61, 0.736);
+  font-weight: bold;
+  
 }
 
-button{
+#gen-btn{
   padding: 5px;
-  border: 1px solid black;
+  border: 0;
   border-radius: 15px;
   width: 140px;
+  margin-left: 200px; 
+  background-color:rgba(11, 39, 61, 0.736) ;
+  color: whitesmoke;
+  font-weight: 600;
 }
